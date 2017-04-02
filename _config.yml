@@ -71,4 +71,4 @@ theme: next
 deploy:
   type: git
   repo: 
-      github: git@github.com:drawfromwreck:drawfromwreck.github.io.git,master
+      github: git@github.com:drawfromwreck/drawfromwreck.github.io.git,master
