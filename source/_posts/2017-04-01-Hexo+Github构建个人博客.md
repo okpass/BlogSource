@@ -57,7 +57,7 @@ GitHub提供GitHub Pages服务，为你建立的每一个项目提供专有的�
 
 假设你的GitHub用户名为yourname，那么如果你想建立你的GitHub个人主页，可以新建一个名为yourname.github.io的仓库，这样GitHub会为你生成一个名为yourname.github.io/的页面作为你的个人主页。而其他名字的仓库(例如other)生成的GitHub Pages则会是yourname.github.io/other/的地址形式。
 
-我们需要建立两个repository，一个是用来存放博客的源代码，另一个用来存放博客生成的静态文件。我的博客源代码存放在[https://drawfromwreck.github.io/](https://drawfromwreck.github.io/)，博客静态文件存放在[https://drawfromwreck.github.io/BlogSource/](https://drawfromwreck.github.io/BlogSource/)中，于是我建立的两个仓库名字分别为"drawfromwreck.github.io"和"BlogSource"。
+我们需要建立两个repository，一个是用来存放博客的源代码，另一个用来存放博客生成的静态文件。我的博客源代码存放在[https://github.com/drawfromwreck/BlogSource](https://github.com/drawfromwreck/BlogSource)，博客静态文件存放在[https://github.com/drawfromwreck/drawfromwreck.github.io](https://github.com/drawfromwreck/drawfromwreck.github.io)中，于是我建立的两个仓库名字分别为"drawfromwreck.github.io"和"BlogSource"。
 - 首先在[GitHub](https://github.com/)上申请自己的帐号。
 - 申请好之后，在主页点击Start a project建立新的代码仓库(repository)
 ![](\images\2017-04-01-Hexo+GitHub构建个人博客\4.png)
