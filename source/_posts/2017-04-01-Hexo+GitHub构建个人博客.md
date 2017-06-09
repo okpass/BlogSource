@@ -4,6 +4,7 @@ date: 2017-04-01 23:59:57
 tags: 
 - Hexo
 - GitHub
+categories: 博客搭建
 ---
 
 本篇教程讲述如何用Hexo和GitHub搭建一个静态博客。

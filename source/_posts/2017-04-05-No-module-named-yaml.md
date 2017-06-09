@@ -4,6 +4,7 @@ date: 2017-04-05 17:26:47
 tags: 
 - Lua
 - cocos2d-x
+categories: cocos2dx
 ---
 
 # 一、使用Lua绑定C++，执行tools/tolua/genbindings.py时报错ImportError: No module named yaml

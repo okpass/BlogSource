@@ -4,6 +4,7 @@ date: 2017-04-06 16:40:59
 tags:
 - Lua
 - cocos2d-x
+categories: cocos2dx
 ---
 
 cocos2d框架提供了genbindings.py，将Lua函数与C++类绑定，即可在Lua中调用C++类。
