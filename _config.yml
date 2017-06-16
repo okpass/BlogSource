@@ -72,3 +72,11 @@ deploy:
   type: git
   repo: 
       github: git@github.com:drawfromwreck/drawfromwreck.github.io.git,master
+      coding: git@git.coding.net:namidame/namidame.git,master
+
+#自动生成sitemap
+sitemap:
+  path: sitemap.xml
+
+baidusitemap:
+  path: baidusitemap.xml
