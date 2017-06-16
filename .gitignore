@@ -3,10 +3,10 @@ Thumbs.db
 db.json
 *.log
 node_modules/
-public/
 .deploy*/
-!public/baidusitemap.xml
-!public/CNAME
-!public/googlee87c4e95545f1852.html
-!public/sitemap.xml
+/public/
+!/public/baidusitemap.xml
+!/public/CNAME
+!/public/googlee87c4e95545f1852.html
+!/public/sitemap.xml
 
