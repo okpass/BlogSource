@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://www.namidame.tech/2017/06/15/Lua-%E5%BE%B7%E5%B7%9E%E6%89%91%E5%85%8B%E7%89%8C%E5%9E%8B%E8%AE%A1%E7%AE%97/</loc>
+    <lastmod>2017-06-16T02:12:58.772Z</lastmod>
+    <data>
+        <display>
+        <title>Lua-德州扑克牌型计算</title>
+        <pubTime>2017-06-15T15:31:08.000Z</pubTime>
+        
+        <tag>Lua</tag>
+         
+        <tag>德州扑克</tag>
+         
+         
+           
+             
+              <breadCrumb title="Lua" url="http://www.namidame.tech/categories/Lua/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.namidame.tech/2017/06/08/Cocos2dx-3-10-Lua-Sublime-Text3%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2017-06-09T06:58:04.501Z</lastmod>
+    <data>
+        <display>
+        <title>Cocos2dx-Lua 3.10 + Sublime Text3开发环境搭建</title>
+        <pubTime>2017-06-08T08:43:42.000Z</pubTime>
+        
+        <tag>Lua</tag>
+         
+        <tag>cocos2d-x</tag>
+         
+         
+           
+             
+              <breadCrumb title="cocos2dx" url="http://www.namidame.tech/categories/cocos2dx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.namidame.tech/2017/04/06/quick-cocos2d-3-3-genbindings%E2%80%94%E7%94%9F%E6%88%90lua%E7%BB%91%E5%AE%9A/</loc>
+    <lastmod>2017-06-09T06:57:52.108Z</lastmod>
+    <data>
+        <display>
+        <title>quick-cocos2d-x-3.3 genbindings生成lua绑定</title>
+        <pubTime>2017-04-06T08:40:59.000Z</pubTime>
+        
+        <tag>Lua</tag>
+         
+        <tag>cocos2d-x</tag>
+         
+         
+           
+             
+              <breadCrumb title="cocos2dx" url="http://www.namidame.tech/categories/cocos2dx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.namidame.tech/2017/04/05/No-module-named-yaml/</loc>
+    <lastmod>2017-06-09T06:57:42.253Z</lastmod>
+    <data>
+        <display>
+        <title>Lua绑定C++报错:ImportError:No module named yaml</title>
+        <pubTime>2017-04-05T09:26:47.000Z</pubTime>
+        
+        <tag>Lua</tag>
+         
+        <tag>cocos2d-x</tag>
+         
+         
+           
+             
+              <breadCrumb title="cocos2dx" url="http://www.namidame.tech/categories/cocos2dx/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.namidame.tech/2017/04/01/Hexo+GitHub%E6%9E%84%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2017-06-09T06:56:37.026Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo+GitHub构建个人博客</title>
+        <pubTime>2017-04-01T15:59:57.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>GitHub</tag>
+         
+         
+           
+             
+              <breadCrumb title="博客搭建" url="http://www.namidame.tech/categories/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+    
+</urlset>

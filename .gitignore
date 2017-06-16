@@ -4,7 +4,7 @@ db.json
 *.log
 node_modules/
 .deploy*/
-/public/
+/public/*
 !/public/baidusitemap.xml
 !/public/CNAME
 !/public/googlee87c4e95545f1852.html
