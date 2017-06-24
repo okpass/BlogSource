@@ -43,3 +43,13 @@ USE_WIN32_CONSOLE
 ```
 - 编译运行工程，即可看到输出控制台
 ![](\images\2017-06-24-cocoslua-nooutput\2.png)
+
+# 打开F5重启功能
+若创建的工程没有了F5重启功能，打开CC_CODE_IDE_DEBUG_SUPPORT开关即可
+- 编辑工程目录下
+frameworks\runtime-src\Classes\ide-support\CodeIDESupport.h，修改设置
+```c
+#define CC_CODE_IDE_DEBUG_SUPPORT 1
+```
+- 重新编译运行工程即可
+
