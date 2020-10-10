@@ -70,9 +70,12 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
-      github: git@github.com:drawfromwreck/drawfromwreck.github.io.git,master
-      coding: git@git.coding.net:namidame/namidame.git,master
+  repository: git@192.236.210.223:/home/git/repos/blog.git
+  branch: master
+  # type: git
+  # repo:
+  #   github: git@github.com:drawfromwreck/drawfromwreck.github.io.git,master
+  #   # coding: git@git.coding.net:namidame/namidame.git,master
 
 #自动生成sitemap
 sitemap:
