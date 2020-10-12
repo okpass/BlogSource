@@ -2,9 +2,10 @@
 title: Cocos2dx-Lua 3.10 + Sublime Text3开发环境搭建
 date: 2017-06-08 16:43:42
 tags: 
-- cocos2d-x
+- Cocos2d-x
 - Lua
-categories: cocos2dx
+categories: Cocos2dx
+image: img/category/cocos2dx.png
 ---
 
 本篇教程讲述如何基于sublime text3编辑器配置cocos2dx-lua的开发环境
@@ -29,10 +30,10 @@ cocos run -p win32
 
 # 二、cocos目录结构介绍
 - 先来看一下cocos2dx-3.10创建的目录结构
-![](\images\2017-06-08-Cocos2dx-3-10-Lua-Sublime-Text3开发环境搭建\1.png)
+{% asset_img 1.png %}
 重点关注src和res文件夹，src存放了我们编写的lua代码，res存放了游戏资源，如果用VS开发，在运行时VS会把src和res中改动过的文件复制到simulator/win32目录下对应文件夹里（包括新增，修改，删除）
 - 再来看win32目录
-![](\images\2017-06-08-Cocos2dx-3-10-Lua-Sublime-Text3开发环境搭建\2.png)
+{% asset_img 2.png %}
 simulator\win32目录下是游戏运行默认的工作目录，游戏会读取此目录下的src和res文件，而不是根目录下的
 所以我们此次教程的目的就是要搭建一个自动读取根目录下src,res文件的环境，因为simulator/win32下的资源是临时的，很有可能会被覆盖，而我们一般编写的都是根目录下的文件，所以才读取根目录下的。当然，你可以直接复制simulator/win32下除了src,res外的文件到根目录下，或者直接修改win32目录下的src和res，但这是很危险的，不仅和项目原有结构不同，难以使用svn工具同步代码，而且转而使用VS调试时会被覆盖，所以不建议采用这些办法。
 

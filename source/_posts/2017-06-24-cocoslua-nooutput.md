@@ -5,6 +5,7 @@ tags:
 - Cocos2d-x
 - Lua
 categories: Cocos2dx
+image: img/category/cocos2dx.png
 ---
 Cocos2dx-3.10框架下建立的Lua工程分为预编译版和非预编译版，在Windows上调试时，预编译版默认带win32控制台输出，但禁用了调试输出，也就是调用print()函数没有输出；非预编译版默认不带win32控制台输出，要看输出只能开VS调试，比较麻烦。建议生成非预编译版工程，不然连语法错误都无法定位。
 # 建立工程
@@ -37,12 +38,12 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 # 修改VS工程配置
 - 用VS打开工程，右击工程->配置属性->C/C++->预处理器，编辑预处理器定义
 - 加入以下定义
-![](\images\2017-06-24-cocoslua-nooutput\1.png)
+{% asset_img 1.png %}
 ```
 USE_WIN32_CONSOLE
 ```
 - 编译运行工程，即可看到输出控制台
-![](\images\2017-06-24-cocoslua-nooutput\2.png)
+{% asset_img 2.png %}
 
 # 打开F5重启功能
 若创建的工程没有了F5重启功能，打开CC_CODE_IDE_DEBUG_SUPPORT开关即可

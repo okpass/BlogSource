@@ -4,8 +4,9 @@
 
 # Site
 title: 你很德布罗意的技术博客
+keyword: 你很德布罗意
 subtitle: 
-description:
+description: 你很德布罗意的技术博客
 author: 你很德布罗意
 language: zh-Hans
 timezone:
@@ -14,15 +15,16 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://www.namidame.tech
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: post/:title.html
 permalink_defaults:
 
 # Directory
 source_dir: source
 public_dir: public
-tag_dir: tags
-archive_dir: archives
-category_dir: categories
+# tag_dir: tags
+# archive_dir: archives
+# category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
@@ -34,7 +36,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -64,7 +66,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: next
+theme: geektutu
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -83,3 +85,31 @@ sitemap:
 
 baidusitemap:
   path: baidusitemap.xml
+
+header_icon: img/avatar/head.png
+# alipay wechatpay 的二维码转换的网址，不使用二维码图片，提高加载速率。
+# https://cli.im/deqr 可将二维码转为网址
+reward:
+  alipay: HTTPS://QR.ALIPAY.COM/FKX087938LLXVRMVTAYAZ41
+  wechat: wxp://f2f0c4Ug99sP6EBVT9Ajs1C8M2ifAEIPQN29
+  
+related_links:
+- link: https://github.com/drawfromwreck
+  img: img/related_links/github_icon.jpeg
+- link: https://weibo.com/isoyayuki
+  img: img/related_links/weibo.png
+
+# 文章末尾配置一些提示信息，可选，不配置则不显示
+post_tips:
+  find_me: true # 本站永久域名「 xx.domain 」， 也可以通过搜索「 xx 」找到我。
+
+widgets:
+  mobile_qrcode: false # 开启移动端二维码，扫一扫，手机上阅读
+  caidan: true  # 开启彩蛋，点击屏幕会随机弹出 '点个赞','留个言'等
+  busuanzi: true # 开启不蒜子统计 https://busuanzi.ibruce.info/
+
+ba_auto_push: true # Baidu 自动推送，以下均为可选配置
+ba_track_id: 1a0ec33b1aa # Baidu Analytics
+cnzz_track_id: 123649 # CNZZ Analytics
+google_analysis: UA-141425-1 # Google Analytics
+google_ad_client: ca-pub-939225546 # Google Ad

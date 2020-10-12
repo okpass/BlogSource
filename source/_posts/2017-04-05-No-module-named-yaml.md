@@ -3,8 +3,9 @@ title: Lua绑定C++报错:ImportError:No module named yaml
 date: 2017-04-05 17:26:47
 tags: 
 - Lua
-- cocos2d-x
-categories: cocos2dx
+- Cocos2d-x
+categories: Cocos2dx
+image: img/category/cocos2dx.png
 ---
 
 # 一、使用Lua绑定C++，执行tools/tolua/genbindings.py时报错ImportError: No module named yaml

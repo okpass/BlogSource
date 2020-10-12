@@ -5,6 +5,7 @@ tags:
 - Hexo
 - GitHub
 categories: 博客搭建
+image: img/category/blog.jpg
 ---
 
 本篇教程讲述如何用Hexo和GitHub搭建一个静态博客。
@@ -15,7 +16,7 @@ categories: 博客搭建
 {% codeblock lang:js %}
 node -v
 {% endcodeblock %}若正常显示版本号，则安装成功
-{% iframe \images\2017-04-01-Hexo+GitHub构建个人博客\1.png 181 41 %}
+{% asset_img 1.png %}
 
 # 二、安装Hexo
 [Hexo](https://hexo.io/zh-cn/)是一个快速、简洁且高效的博客框架，支持Markdown格式编写，能够快速构建、部署博客。
@@ -34,7 +35,7 @@ hexo init
 hexo server
 {% endcodeblock %}
 本地测试默认监听4000端口，开启后显示以下信息则启动成功
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\2.png)
+{% asset_img 2.png %}
 还可以使用以下命令启动博客，以输出更详细的启动信息
 {% codeblock lang:js %}
 hexo server --debug
@@ -51,7 +52,7 @@ hexo s
 {% codeblock lang:js %}
 git --version
 {% endcodeblock %}
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\3.png)
+{% asset_img 3.png %}
 
 # 四、使用GitHub托管你的博客
 GitHub提供GitHub Pages服务，为你建立的每一个项目提供专有的页面给其他人访问，如果我们将博客生成的静态HTML文件等内容布置到GitHub Pages上，那么其他人就可以访问这个页面来阅读你的博客，相当于一个服务器的作用。
@@ -61,10 +62,10 @@ GitHub提供GitHub Pages服务，为你建立的每一个项目提供专有的�
 我们需要建立两个repository，一个是用来存放博客的源代码，另一个用来存放博客生成的静态文件。我的博客源代码存放在[https://github.com/drawfromwreck/BlogSource](https://github.com/drawfromwreck/BlogSource)，博客静态文件存放在[https://github.com/drawfromwreck/drawfromwreck.github.io](https://github.com/drawfromwreck/drawfromwreck.github.io)中，于是我建立的两个仓库名字分别为"drawfromwreck.github.io"和"BlogSource"。
 - 首先在[GitHub](https://github.com/)上申请自己的帐号。
 - 申请好之后，在主页点击Start a project建立新的代码仓库(repository)
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\4.png)
+{% asset_img 4.png %}
 - 输入你所设定的两个仓库名字，本教程中分别为"drawfromwreck.github.io"和"BlogSource"。这样GitHub仓库就创建好了。
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\5.png)
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\6.png)
+{% asset_img 5.png %}
+{% asset_img 6.png %}
 
 # 五、配置SSH
 - 在E:/MyBlog/里点击鼠标右键，点击"Git Bash Here"
@@ -84,20 +85,20 @@ ssh-keygen -t rsa -C "your e-mail"
 {% endcodeblock %}
 这里的-t表示type为rsa加密，-C(Common)表示生成的key最后加上你GitHub帐号的邮箱名，以提示这段加密串是属于哪个帐号的。
 - 提示选择保存证书的文件名，直接回车使用默认值
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\7.png)
+{% asset_img 7.png %}
 - 提示设置passphrase，此密码以后每次提交的时候需要输入。再次输入以确认密码，则成功创建证书。
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\8.png)
+{% asset_img 8.png %}
 - 查看ssh公钥
 {% codeblock lang:js %}
 cat id_rsa.pub
 {% endcodeblock %}
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\9.png)
+{% asset_img 9.png %}
 - 点击GitHub右上角的用户头像，点击Settings，点击右侧的SSH and GPG keys，点击右上角的New SSH key加入新的ssh证书。Title我设置成为home表示这是家里的电脑提交时用的证书，Key里粘贴上刚刚生成的ssh公钥，记得把最后加上的邮箱名去掉。
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\10.png)
+{% asset_img 10.png %}
 
 # 六、上传博客静态文件
 - 配置_config.yml文件。用文本编辑器打开博客根目录下的_config.yml文件，拉到最下面，如图设置
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\11.png)
+{% asset_img 11.png %}
 deploy表示发布设置，type选择git发布，repo表示仓库地址的配置，这里我们按如下格式填写，yourname表示你的GitHub用户名，master表示发布到仓库的master分支。
 {% codeblock lang:yml %}
 github:git@github.com:yourname/yourname.github.io.git,master
@@ -112,11 +113,11 @@ hexo d -g
 hexo g -d
 {% endcodeblock %}
 提示输入ssh设置的密码，输入密码即可发布成功
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\12.png)
+{% asset_img 12.png %}
 - 进入GitHub仓库github.com/yourname/yourname.github.io，此时仓库中已有上传的静态文件
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\13.png)
+{% asset_img 13.png %}
 - 点击右侧Settings，在GitHub Pages项选择Source为master branch，点击Save，页面刷新后则已生成个人博客页面，点击链接即可查看
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\14.png)
+{% asset_img 14.png %}
 
 # 七、上传博客源文件
 上传博客源文件的目的是为了多地开发。比如你在家里创建了hexo博客，将生成的静态文件上传到GitHub，但你在公司也想写博客，最方便的方式就是用GitHub管理博客的源文件，这样在公司的电脑将博客项目克隆下来，再进行相应配置，便可进行博客的编写。现在将博客源文件发布到BlogSource仓库。
@@ -164,4 +165,4 @@ git commit -m "..."
 {% codeblock lang:bash %}
 git push origin
 {% endcodeblock %}
-![](\images\2017-04-01-Hexo+GitHub构建个人博客\15.png)
+{% asset_img 15.png %}

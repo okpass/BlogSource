@@ -3,8 +3,9 @@ title: quick-cocos2d-x-3.3 genbindings生成lua绑定
 date: 2017-04-06 16:40:59
 tags:
 - Lua
-- cocos2d-x
-categories: cocos2dx
+- Cocos2d-x
+categories: Cocos2dx
+image: img/category/cocos2dx.png
 ---
 
 cocos2d框架提供了genbindings.py，将Lua函数与C++类绑定，即可在Lua中调用C++类。
@@ -138,4 +139,4 @@ cmd_args = {
 {% endcodeblock %}
 生成的cpp和hpp文件在以下目录
 quickTest\frameworks\cocos2d-x\cocos\scripting\lua-bindings\auto
-![](/images/2017-04-06-quick-cocos2d-3-3-genbindings—生成lua绑定/1.png)
+{% asset_img 1.png %}
