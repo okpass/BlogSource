@@ -1,0 +1,6 @@
+User-agent: * Allow: /
+Allow: /archives/
+Disallow: /series/
+
+Sitemap: http://www.namidame.tech/sitemap.xml
+Sitemap: http://www.namidame.tech/baidusitemap.xml

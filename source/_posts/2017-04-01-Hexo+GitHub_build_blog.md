@@ -6,6 +6,8 @@ tags:
 - GitHub
 categories: 博客搭建
 image: img/category/blog.jpg
+keywords: [Hexo, Hexo Blog, Hexo博客]
+description: 用Hexo建立自己的静态博客
 ---
 
 本篇教程讲述如何用Hexo和GitHub搭建一个静态博客。
