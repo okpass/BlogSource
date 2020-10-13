@@ -35,12 +35,14 @@ gulp.task('minify-js', function() {
 });
 // 压缩图片
 gulp.task('minify-images', function() {
-    return gulp.src(['./public/**/*.png','./public/**/*.jpg','./public/**/*.gif'])
+    return gulp.src(['./public/**/*.png','./public/*/*/*.jpg','./public/**/*.jpg','./public/*/*/*.jpeg','./public/**/*.jpeg','./public/**/*.gif'])
         .pipe(imagemin(
-        [imagemin.gifsicle({'optimizationLevel': 3}), 
-        // imagemin.jpegtran({'progressive': true}), 
-        imagemin.optipng({'optimizationLevel': 7}), 
-        imagemin.svgo()],
+        [
+            imagemin.gifsicle({'optimizationLevel': 3}), 
+            imagemin.mozjpeg({'progressive': true}), 
+            imagemin.optipng({'optimizationLevel': 7}), 
+            imagemin.svgo()
+        ],
         {'verbose': true}))
         .pipe(gulp.dest('./public'))
 });
@@ -51,6 +53,7 @@ gulp.task('default', [
 ]);
 */
 // gulp 4.0 适用的方式
-gulp.task('build', gulp.parallel('minify-html','minify-css','minify-js','minify-images'
+// gulp.task('build', gulp.parallel('minify-html','minify-css','minify-js','minify-images'
+    gulp.task('build', gulp.parallel('minify-images'
  //build the website
 ));

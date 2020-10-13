@@ -102,7 +102,7 @@ related_links:
 # 文章末尾配置一些提示信息，可选，不配置则不显示
 post_tips:
   find_me: true # 本站永久域名「 xx.domain 」， 也可以通过搜索「 xx 」找到我。
-
+  weibo: https://weibo.com/isoyayuki
 widgets:
   mobile_qrcode: false # 开启移动端二维码，扫一扫，手机上阅读
   caidan: true  # 开启彩蛋，点击屏幕会随机弹出 '点个赞','留个言'等
@@ -118,4 +118,12 @@ nofollow:
     enable: true
     # exclude:
     # - www.langzi.fun
-    # - 友链地址  
+    # - 友链地址 
+gitalk: true 
+# seo: 
+#   baidu-site-verification: cUMyTgyiju
+seo:
+  google_site_verification: 
+  baidu_site_verification: cUMyTgyiju
+  ms_site_verification: 
+  _360_site_verification: 

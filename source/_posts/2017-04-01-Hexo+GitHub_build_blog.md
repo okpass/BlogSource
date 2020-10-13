@@ -5,7 +5,7 @@ tags:
 - Hexo
 - GitHub
 categories: 博客搭建
-image: img/category/blog.jpg
+image: img/category/blog.jpeg
 keywords: [Hexo, Hexo Blog, Hexo博客]
 description: 用Hexo建立自己的静态博客
 ---
