@@ -2,10 +2,12 @@
 title: Cocos2dx-Lua 3.10 + Sublime Text3开发环境搭建
 date: 2017-06-08 16:43:42
 tags: 
-- Cocos2d-x
 - Lua
+- Cocos2d-x
 categories: Cocos2dx
 image: img/category/cocos2dx.png
+keywords: [Cocos2dx-Lua, Sublime Text3]
+description: 介绍了用Sublime Text3搭建Cocos2dx-Lua开发环境的方法
 ---
 
 本篇教程讲述如何基于sublime text3编辑器配置cocos2dx-lua的开发环境

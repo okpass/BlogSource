@@ -1,11 +1,13 @@
 ---
-title: Cocos2dx-3.10 Lua工程输出控制台
+title: Cocos2dx-3.10 Lua工程如何开启控制台输出
 date: 2017-06-24 09:49:39
 tags: 
 - Cocos2d-x
 - Lua
 categories: Cocos2dx
 image: img/category/cocos2dx.png
+keywords: [Cocos2dx-3.10, 控制台输出, Cocos2dx 调试]
+description: 本文提出了Cocos2dx-3.10 Lua工程运行时开启控制台输出的方法
 ---
 Cocos2dx-3.10框架下建立的Lua工程分为预编译版和非预编译版，在Windows上调试时，预编译版默认带win32控制台输出，但禁用了调试输出，也就是调用print()函数没有输出；非预编译版默认不带win32控制台输出，要看输出只能开VS调试，比较麻烦。建议生成非预编译版工程，不然连语法错误都无法定位。
 # 建立工程

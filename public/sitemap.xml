@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.namidame.tech/about.html</loc>
+    
+    <lastmod>2020-10-15T08:33:20.671Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.namidame.tech/gitalk-in-hexo-theme-geektutu.html</loc>
     
     <lastmod>2020-10-13T06:56:34.331Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>http://www.namidame.tech/Hexo+GitHub_build_blog.html</loc>
     
     <lastmod>2020-10-12T14:56:47.602Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.namidame.tech/about.html</loc>
-    
-    <lastmod>2020-10-12T13:51:41.601Z</lastmod>
     
   </url>
   
