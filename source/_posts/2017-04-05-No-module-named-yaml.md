@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
 运行成功则成功恢复注册表信息
 
-# 三、未安装Cheetah
+## 三、未安装Cheetah
 安装yaml后再运行genbindings.py，报错ImportError: No module named Cheetah.Template，原因是缺少了cheetah库，下载安装即可
 下载Cheetah库：[http://github.com/cheetahtemplate/cheetah/zipball/v2.4.0](http://github.com/cheetahtemplate/cheetah/zipball/v2.4.0)
 - 将下载完的zip文件解压到任意目录，例如C:\Python27\Lib\cheetahtemplate-cheetah-7b1c2ad\
@@ -88,7 +88,7 @@ python setup.py build
 python setup.py install
 ```
 
-# 四、python版本不符
+## 四、python版本不符
 执行genbindings.py报错LibclangError: [Error 193] %1 不是有效的 Win32. To provide e Config.set_library_path() or Config.
 按照前面两步安装的yaml和Cheetah库都是win32版本的，出现这个错误是因为python不是win32版本，全部都用win32版本即可
 下载python win32版本[http://www.python.org/ftp/python/2.7.3/python-2.7.3.msi](http://www.python.org/ftp/python/2.7.3/python-2.7.3.msi)

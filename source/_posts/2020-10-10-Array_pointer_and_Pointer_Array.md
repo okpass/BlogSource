@@ -3,8 +3,8 @@ title: C++数组指针和指针数组的区别
 date: 2020-10-10 14:56:45
 tags:
 - C++
-categories: 算法
-image: img/category/algorithm.jpeg
+categories: C++
+image: img/category/cpp.png
 keywords: [C++, 数组指针, 指针数组]
 description: 本文简单总结了C++中数组指针和指针数组的区别
 ---

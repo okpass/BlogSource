@@ -39,7 +39,7 @@ gulp.task('minify-images', function() {
         .pipe(imagemin(
         [
             imagemin.gifsicle({'optimizationLevel': 3}), 
-            imagemin.mozjpeg({'progressive': true}), 
+            // imagemin.mozjpeg({'progressive': true}), 
             imagemin.optipng({'optimizationLevel': 7}), 
             imagemin.svgo()
         ],
