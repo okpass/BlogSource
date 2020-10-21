@@ -1,0 +1,8 @@
+---
+layout: page
+---
+<% if (page.cheat_sheet) { %>
+    <%- partial('_sheet/sheet') %>
+<% } else { %>
+    <%- partial('_post/post') %>
+<% } %>
