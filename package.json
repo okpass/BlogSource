@@ -35,8 +35,8 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
-    "build": "hexo clean && hexo g && gulp build",
-    "start": "hexo clean && hexo g && hexo s",
-    "deploy": "hexo clean && hexo g && gulp build && hexo d"
+    "build": "hexo clean && hexo g && cp verify/* public/ && gulp build",
+    "start": "hexo clean && hexo g && cp verify/* public/ && hexo s",
+    "deploy": "hexo clean && hexo g && cp verify/* public/ && gulp build && hexo d"
   }
 }

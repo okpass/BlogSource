@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://www.namidame.tech/Lua-Texas.html</loc>
-    <lastmod>2020-10-19</lastmod>
+    <loc>http://www.namidame.tech/brokes-max-profit.html</loc>
+    <lastmod>2020-10-21</lastmod>
   </url>
   <url>
     <loc>http://www.namidame.tech/is-power-of-x.html</loc>
+    <lastmod>2020-10-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.namidame.tech/calculate-plus-without-plus-sign.html</loc>
+    <lastmod>2020-10-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.namidame.tech/delete-duplicated-item.html</loc>
+    <lastmod>2020-10-21</lastmod>
+  </url>
+  <url>
+    <loc>http://www.namidame.tech/Lua-Texas.html</loc>
     <lastmod>2020-10-19</lastmod>
   </url>
   <url>

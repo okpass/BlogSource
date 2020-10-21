@@ -3,6 +3,7 @@ title: 判断一个数是否x的n次幂
 date: 2020-10-19 14:44:43
 tags:
 - 幂次判断
+- 位操作
 categories: 算法
 image: img/category/algorithm.jpeg
 keywords: [2的n次幂, 4的n次幂, x的n次幂]
@@ -20,13 +21,9 @@ using namespace std;
 
 bool isPowerOfTwo(int num)
 {
-    if(num < 0)
+    if(num <= 0)
     {
         return false;
-    }
-    if(num == 0)
-    {
-        return true;
     }
     int oneNum = 0; // 1的个数
     while(num > 0)
@@ -55,13 +52,9 @@ using namespace std;
 
 bool isPowerOfFour(int num)
 {
-    if(num < 0)
+    if(num <= 0)
     {
         return false;
-    }
-    if(num == 0)
-    {
-        return true;
     }
     int oneNum = 0;         // 1的个数
     int curPos = -1;        // 记录当前位置
@@ -105,6 +98,10 @@ using namespace std;
 
 bool isPowerOfX(int base, int num)
 {
+    if(num <= 0)
+    {
+        return false;
+    }
     int oneNum = 0;
     int mod = 0;
     do{
