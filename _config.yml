@@ -27,7 +27,7 @@ public_dir: public
 # category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: static/**
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
@@ -72,7 +72,7 @@ theme: geektutu
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: git@192.236.210.223:/home/git/repos/blog.git
+  repository: git@104.168.133.224:/home/git/repos/blog.git
   branch: master
   # type: git
   # repo:
@@ -127,3 +127,11 @@ seo:
   baidu_site_verification: cUMyTgyiju
   ms_site_verification: 
   _360_site_verification: 
+
+
+# Baidu Share
+# Available value:
+#    button | slide
+# Warning: Baidu Share does not support https.
+baidushare:
+  type: slide

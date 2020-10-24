@@ -30,6 +30,7 @@
     "hexo-renderer-marked": "^1.0.1",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
+    "hexo-social9-socialshare": "^1.0.1",
     "hexo-wordcount": "^3.0.2",
     "react": "^0.13.1",
     "react-dom": "^16.13.1"
