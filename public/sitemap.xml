@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.namidame.tech/has-duplicated-element.html</loc>
+    
+    <lastmod>2020-10-27T15:12:54.187Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.namidame.tech/rotate-array.html</loc>
+    
+    <lastmod>2020-10-27T14:01:11.104Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.namidame.tech/data-structure-alignment.html</loc>
     
     <lastmod>2020-10-22T08:56:52.823Z</lastmod>
